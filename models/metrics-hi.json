@@ -1,0 +1,347 @@
+{
+  "language": "hi",
+  "status": "trained",
+  "dataset": "L3Cube-IndicNews SHC",
+  "license": "CC-BY-NC-SA-4.0; research use",
+  "source_revision": "0c6014be94385b357e31ce6250da7094e8a7c0fb",
+  "trained_at": "2026-10-25T12:12:29.511181+00:00",
+  "algorithm": "Word (1,2) and character (3,5) TF-IDF + LinearSVC",
+  "seed": 42,
+  "selected_C": 0.5,
+  "selection_trials": [
+    {
+      "C": 0.5,
+      "validation_macro_f1": 0.8666317620463755
+    },
+    {
+      "C": 2.0,
+      "validation_macro_f1": 0.8610196384144791
+    }
+  ],
+  "train_count": 26834,
+  "validation_count": 3184,
+  "test_count": 3142,
+  "accuracy": 0.8739656269891789,
+  "macro_f1": 0.8708021370285444,
+  "majority_baseline_accuracy": 0.11139401654996817,
+  "labels": [
+    "automobile",
+    "business",
+    "crime-news-hindi",
+    "education",
+    "entertainment",
+    "health-news-hindi",
+    "international",
+    "khel",
+    "national",
+    "politics",
+    "technology-news"
+  ],
+  "confusion_matrix": [
+    [
+      92,
+      20,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      15,
+      284,
+      3,
+      1,
+      2,
+      3,
+      7,
+      0,
+      6,
+      2,
+      6
+    ],
+    [
+      0,
+      2,
+      262,
+      1,
+      4,
+      0,
+      7,
+      1,
+      17,
+      3,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      328,
+      0,
+      0,
+      2,
+      0,
+      5,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      116,
+      0,
+      4,
+      1,
+      1,
+      6,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      1,
+      223,
+      1,
+      0,
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      4,
+      23,
+      1,
+      12,
+      3,
+      264,
+      13,
+      17,
+      11,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      3,
+      0,
+      5,
+      322,
+      3,
+      1,
+      0
+    ],
+    [
+      0,
+      5,
+      32,
+      1,
+      5,
+      0,
+      20,
+      1,
+      250,
+      22,
+      1
+    ],
+    [
+      0,
+      4,
+      5,
+      1,
+      5,
+      0,
+      7,
+      0,
+      31,
+      277,
+      0
+    ],
+    [
+      0,
+      13,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      1,
+      328
+    ]
+  ],
+  "per_class": {
+    "automobile": {
+      "precision": 0.8518518518518519,
+      "recall": 0.8,
+      "f1-score": 0.8251121076233184,
+      "support": 115.0
+    },
+    "business": {
+      "precision": 0.8502994011976048,
+      "recall": 0.8632218844984803,
+      "f1-score": 0.8567119155354449,
+      "support": 329.0
+    },
+    "crime-news-hindi": {
+      "precision": 0.7987804878048781,
+      "recall": 0.8791946308724832,
+      "f1-score": 0.8370607028753994,
+      "support": 298.0
+    },
+    "education": {
+      "precision": 0.984984984984985,
+      "recall": 0.9647058823529412,
+      "f1-score": 0.974739970282318,
+      "support": 340.0
+    },
+    "entertainment": {
+      "precision": 0.7785234899328859,
+      "recall": 0.8923076923076924,
+      "f1-score": 0.8315412186379928,
+      "support": 130.0
+    },
+    "health-news-hindi": {
+      "precision": 0.9612068965517241,
+      "recall": 0.9737991266375546,
+      "f1-score": 0.9674620390455532,
+      "support": 229.0
+    },
+    "international": {
+      "precision": 0.8275862068965517,
+      "recall": 0.7564469914040115,
+      "f1-score": 0.7904191616766467,
+      "support": 349.0
+    },
+    "khel": {
+      "precision": 0.9470588235294117,
+      "recall": 0.9611940298507463,
+      "f1-score": 0.9540740740740741,
+      "support": 335.0
+    },
+    "national": {
+      "precision": 0.7507507507507507,
+      "recall": 0.7418397626112759,
+      "f1-score": 0.746268656716418,
+      "support": 337.0
+    },
+    "politics": {
+      "precision": 0.8445121951219512,
+      "recall": 0.8393939393939394,
+      "f1-score": 0.8419452887537994,
+      "support": 330.0
+    },
+    "technology-news": {
+      "precision": 0.9704142011834319,
+      "recall": 0.9371428571428572,
+      "f1-score": 0.9534883720930233,
+      "support": 350.0
+    },
+    "accuracy": 0.8739656269891789,
+    "macro avg": {
+      "precision": 0.8696335718005479,
+      "recall": 0.8735678906429075,
+      "f1-score": 0.8708021370285444,
+      "support": 3142.0
+    },
+    "weighted avg": {
+      "precision": 0.8750466801769703,
+      "recall": 0.8739656269891789,
+      "f1-score": 0.8738948034308658,
+      "support": 3142.0
+    }
+  },
+  "split_audit": {
+    "train": {
+      "raw": 30851,
+      "retained": 26834,
+      "removed": {
+        "conflicting_labels": 1268,
+        "duplicate": 2749
+      },
+      "labels": {
+        "politics": 2755,
+        "health-news-hindi": 2430,
+        "international": 2523,
+        "business": 2515,
+        "technology-news": 2769,
+        "national": 2710,
+        "khel": 2835,
+        "entertainment": 2108,
+        "crime-news-hindi": 2607,
+        "education": 2644,
+        "automobile": 938
+      },
+      "excluded_low_training_support": {}
+    },
+    "validation": {
+      "raw": 3835,
+      "retained": 3184,
+      "removed": {
+        "conflicting_labels": 146,
+        "duplicate": 505
+      },
+      "labels": {
+        "education": 365,
+        "national": 338,
+        "health-news-hindi": 260,
+        "crime-news-hindi": 329,
+        "politics": 345,
+        "international": 317,
+        "khel": 322,
+        "technology-news": 348,
+        "business": 294,
+        "entertainment": 140,
+        "automobile": 126
+      },
+      "excluded_low_training_support": {}
+    },
+    "test": {
+      "raw": 3836,
+      "retained": 3142,
+      "removed": {
+        "duplicate": 536,
+        "conflicting_labels": 158
+      },
+      "labels": {
+        "automobile": 115,
+        "business": 329,
+        "khel": 335,
+        "international": 349,
+        "politics": 330,
+        "health-news-hindi": 229,
+        "national": 337,
+        "crime-news-hindi": 298,
+        "education": 340,
+        "technology-news": 350,
+        "entertainment": 130
+      },
+      "excluded_low_training_support": {}
+    }
+  },
+  "versions": {
+    "python": "3.11.9",
+    "sklearn": "1.9.0",
+    "numpy": "2.4.6"
+  },
+  "model_sha256": "8f23df4127e7d09585ecadbf6041217ed0a3704a960645e695ff01ee9b304f2c",
+  "duration_seconds": 19.74,
+  "limitations": [
+    "Historical headline benchmark; not live-news accuracy.",
+    "Exact normalized duplicates removed; related events may remain across splits.",
+    "Native labels retained; no universal topic classifier.",
+    "SVM margins are uncalibrated scores, not probabilities."
+  ]
+}

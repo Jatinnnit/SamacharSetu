@@ -1,0 +1,13 @@
+{
+  "algorithm": "cbow",
+  "language": "hi",
+  "dimensions": 48,
+  "vocabulary": 8268,
+  "training_headlines": 26834,
+  "epochs": 10,
+  "seed": 42,
+  "python_hash_seed": 42,
+  "workers": 1,
+  "dataset": "L3Cube-IndicNews SHC training split",
+  "evaluation": "Teaching demonstration; nearest-neighbour quality not independently benchmarked."
+}

@@ -1,0 +1,385 @@
+{
+  "language": "en",
+  "status": "trained",
+  "dataset": "L3Cube-IndicNews SHC",
+  "license": "CC-BY-NC-SA-4.0; research use",
+  "source_revision": "0c6014be94385b357e31ce6250da7094e8a7c0fb",
+  "trained_at": "2026-10-25T12:12:09.794250+00:00",
+  "algorithm": "Word (1,2) and character (3,5) TF-IDF + LinearSVC",
+  "seed": 42,
+  "selected_C": 0.5,
+  "selection_trials": [
+    {
+      "C": 0.5,
+      "validation_macro_f1": 0.8904346990350374
+    },
+    {
+      "C": 2.0,
+      "validation_macro_f1": 0.8861685699241865
+    }
+  ],
+  "train_count": 23031,
+  "validation_count": 2897,
+  "test_count": 2858,
+  "accuracy": 0.8985304408677397,
+  "macro_f1": 0.894298319186837,
+  "majority_baseline_accuracy": 0.10636808957312806,
+  "labels": [
+    "auto",
+    "business",
+    "education",
+    "elections",
+    "entertainment",
+    "health",
+    "india",
+    "lifestyle",
+    "science",
+    "sports",
+    "technology",
+    "world"
+  ],
+  "confusion_matrix": [
+    [
+      131,
+      3,
+      1,
+      0,
+      1,
+      1,
+      0,
+      2,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      248,
+      2,
+      0,
+      0,
+      2,
+      6,
+      3,
+      0,
+      0,
+      2,
+      7
+    ],
+    [
+      0,
+      0,
+      288,
+      0,
+      1,
+      2,
+      2,
+      1,
+      1,
+      0,
+      1,
+      3
+    ],
+    [
+      1,
+      0,
+      0,
+      232,
+      1,
+      0,
+      12,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      260,
+      0,
+      4,
+      2,
+      0,
+      2,
+      3,
+      6
+    ],
+    [
+      0,
+      0,
+      5,
+      0,
+      0,
+      236,
+      4,
+      9,
+      4,
+      0,
+      2,
+      5
+    ],
+    [
+      2,
+      6,
+      2,
+      9,
+      2,
+      5,
+      214,
+      3,
+      1,
+      2,
+      2,
+      17
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      18,
+      9,
+      4,
+      199,
+      5,
+      6,
+      2,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      1,
+      5,
+      2,
+      4,
+      88,
+      0,
+      3,
+      4
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      2,
+      1,
+      3,
+      0,
+      1,
+      295,
+      0,
+      1
+    ],
+    [
+      2,
+      7,
+      3,
+      1,
+      1,
+      0,
+      4,
+      1,
+      2,
+      0,
+      157,
+      1
+    ],
+    [
+      0,
+      4,
+      2,
+      1,
+      1,
+      1,
+      16,
+      2,
+      3,
+      2,
+      4,
+      220
+    ]
+  ],
+  "per_class": {
+    "auto": {
+      "precision": 0.9632352941176471,
+      "recall": 0.9225352112676056,
+      "f1-score": 0.9424460431654677,
+      "support": 142.0
+    },
+    "business": {
+      "precision": 0.9185185185185185,
+      "recall": 0.9185185185185185,
+      "f1-score": 0.9185185185185185,
+      "support": 270.0
+    },
+    "education": {
+      "precision": 0.9411764705882353,
+      "recall": 0.9632107023411371,
+      "f1-score": 0.9520661157024793,
+      "support": 299.0
+    },
+    "elections": {
+      "precision": 0.9508196721311475,
+      "recall": 0.943089430894309,
+      "f1-score": 0.9469387755102041,
+      "support": 246.0
+    },
+    "entertainment": {
+      "precision": 0.9027777777777778,
+      "recall": 0.935251798561151,
+      "f1-score": 0.9187279151943463,
+      "support": 278.0
+    },
+    "health": {
+      "precision": 0.9007633587786259,
+      "recall": 0.8905660377358491,
+      "f1-score": 0.8956356736242884,
+      "support": 265.0
+    },
+    "india": {
+      "precision": 0.7896678966789668,
+      "recall": 0.8075471698113208,
+      "f1-score": 0.7985074626865671,
+      "support": 265.0
+    },
+    "lifestyle": {
+      "precision": 0.8805309734513275,
+      "recall": 0.8089430894308943,
+      "f1-score": 0.8432203389830508,
+      "support": 246.0
+    },
+    "science": {
+      "precision": 0.8301886792452831,
+      "recall": 0.8148148148148148,
+      "f1-score": 0.822429906542056,
+      "support": 108.0
+    },
+    "sports": {
+      "precision": 0.9577922077922078,
+      "recall": 0.9703947368421053,
+      "f1-score": 0.9640522875816994,
+      "support": 304.0
+    },
+    "technology": {
+      "precision": 0.8920454545454546,
+      "recall": 0.8770949720670391,
+      "f1-score": 0.8845070422535212,
+      "support": 179.0
+    },
+    "world": {
+      "precision": 0.8301886792452831,
+      "recall": 0.859375,
+      "f1-score": 0.8445297504798465,
+      "support": 256.0
+    },
+    "accuracy": 0.8985304408677397,
+    "macro avg": {
+      "precision": 0.8964754152392064,
+      "recall": 0.8926117901903955,
+      "f1-score": 0.894298319186837,
+      "support": 2858.0
+    },
+    "weighted avg": {
+      "precision": 0.8987661256053577,
+      "recall": 0.8985304408677397,
+      "f1-score": 0.8984077125450954,
+      "support": 2858.0
+    }
+  },
+  "split_audit": {
+    "train": {
+      "raw": 36877,
+      "retained": 23031,
+      "removed": {
+        "conflicting_labels": 12959,
+        "empty_or_short": 272,
+        "duplicate": 615
+      },
+      "labels": {
+        "elections": 2143,
+        "auto": 967,
+        "lifestyle": 1925,
+        "india": 2165,
+        "world": 2293,
+        "sports": 2509,
+        "health": 2088,
+        "entertainment": 2148,
+        "education": 2304,
+        "business": 2076,
+        "science": 873,
+        "technology": 1540
+      },
+      "excluded_low_training_support": {}
+    },
+    "validation": {
+      "raw": 4610,
+      "retained": 2897,
+      "removed": {
+        "conflicting_labels": 1593,
+        "duplicate": 80,
+        "empty_or_short": 40
+      },
+      "labels": {
+        "elections": 271,
+        "health": 256,
+        "entertainment": 273,
+        "sports": 314,
+        "world": 277,
+        "education": 331,
+        "technology": 200,
+        "lifestyle": 240,
+        "auto": 135,
+        "business": 250,
+        "india": 256,
+        "science": 94
+      },
+      "excluded_low_training_support": {}
+    },
+    "test": {
+      "raw": 4610,
+      "retained": 2858,
+      "removed": {
+        "conflicting_labels": 1640,
+        "empty_or_short": 33,
+        "duplicate": 79
+      },
+      "labels": {
+        "technology": 179,
+        "entertainment": 278,
+        "education": 299,
+        "elections": 246,
+        "world": 256,
+        "science": 108,
+        "auto": 142,
+        "sports": 304,
+        "india": 265,
+        "lifestyle": 246,
+        "business": 270,
+        "health": 265
+      },
+      "excluded_low_training_support": {}
+    }
+  },
+  "versions": {
+    "python": "3.11.9",
+    "sklearn": "1.9.0",
+    "numpy": "2.4.6"
+  },
+  "model_sha256": "1946e9e7f446d1992ec7ca8ff1b8140fdf6786432332ec2647cc588d2c25bc96",
+  "duration_seconds": 17.63,
+  "limitations": [
+    "Historical headline benchmark; not live-news accuracy.",
+    "Exact normalized duplicates removed; related events may remain across splits.",
+    "Native labels retained; no universal topic classifier.",
+    "SVM margins are uncalibrated scores, not probabilities."
+  ]
+}

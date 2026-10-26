@@ -1,0 +1,221 @@
+{
+  "source": "l3cube-pune/indic-nlp",
+  "revision": "0c6014be94385b357e31ce6250da7094e8a7c0fb",
+  "languages": {
+    "en": {
+      "train": {
+        "raw": 36877,
+        "retained": 23031,
+        "removed": {
+          "conflicting_labels": 12959,
+          "empty_or_short": 272,
+          "duplicate": 615
+        },
+        "labels": {
+          "elections": 2143,
+          "auto": 967,
+          "lifestyle": 1925,
+          "india": 2165,
+          "world": 2293,
+          "sports": 2509,
+          "health": 2088,
+          "entertainment": 2148,
+          "education": 2304,
+          "business": 2076,
+          "science": 873,
+          "technology": 1540
+        },
+        "excluded_low_training_support": {}
+      },
+      "validation": {
+        "raw": 4610,
+        "retained": 2897,
+        "removed": {
+          "conflicting_labels": 1593,
+          "duplicate": 80,
+          "empty_or_short": 40
+        },
+        "labels": {
+          "elections": 271,
+          "health": 256,
+          "entertainment": 273,
+          "sports": 314,
+          "world": 277,
+          "education": 331,
+          "technology": 200,
+          "lifestyle": 240,
+          "auto": 135,
+          "business": 250,
+          "india": 256,
+          "science": 94
+        },
+        "excluded_low_training_support": {}
+      },
+      "test": {
+        "raw": 4610,
+        "retained": 2858,
+        "removed": {
+          "conflicting_labels": 1640,
+          "empty_or_short": 33,
+          "duplicate": 79
+        },
+        "labels": {
+          "technology": 179,
+          "entertainment": 278,
+          "education": 299,
+          "elections": 246,
+          "world": 256,
+          "science": 108,
+          "auto": 142,
+          "sports": 304,
+          "india": 265,
+          "lifestyle": 246,
+          "business": 270,
+          "health": 265
+        },
+        "excluded_low_training_support": {}
+      }
+    },
+    "hi": {
+      "train": {
+        "raw": 30851,
+        "retained": 26834,
+        "removed": {
+          "conflicting_labels": 1268,
+          "duplicate": 2749
+        },
+        "labels": {
+          "politics": 2755,
+          "health-news-hindi": 2430,
+          "international": 2523,
+          "business": 2515,
+          "technology-news": 2769,
+          "national": 2710,
+          "khel": 2835,
+          "entertainment": 2108,
+          "crime-news-hindi": 2607,
+          "education": 2644,
+          "automobile": 938
+        },
+        "excluded_low_training_support": {}
+      },
+      "validation": {
+        "raw": 3835,
+        "retained": 3184,
+        "removed": {
+          "conflicting_labels": 146,
+          "duplicate": 505
+        },
+        "labels": {
+          "education": 365,
+          "national": 338,
+          "health-news-hindi": 260,
+          "crime-news-hindi": 329,
+          "politics": 345,
+          "international": 317,
+          "khel": 322,
+          "technology-news": 348,
+          "business": 294,
+          "entertainment": 140,
+          "automobile": 126
+        },
+        "excluded_low_training_support": {}
+      },
+      "test": {
+        "raw": 3836,
+        "retained": 3142,
+        "removed": {
+          "duplicate": 536,
+          "conflicting_labels": 158
+        },
+        "labels": {
+          "automobile": 115,
+          "business": 329,
+          "khel": 335,
+          "international": 349,
+          "politics": 330,
+          "health-news-hindi": 229,
+          "national": 337,
+          "crime-news-hindi": 298,
+          "education": 340,
+          "technology-news": 350,
+          "entertainment": 130
+        },
+        "excluded_low_training_support": {}
+      }
+    },
+    "mr": {
+      "train": {
+        "raw": 22025,
+        "retained": 17647,
+        "removed": {
+          "conflicting_labels": 1844,
+          "duplicate": 2496,
+          "empty_or_short": 14
+        },
+        "labels": {
+          "auto": 1636,
+          "bhakti": 1345,
+          "crime": 2039,
+          "education": 673,
+          "fashion": 1866,
+          "health": 1823,
+          "international": 1825,
+          "politics": 2069,
+          "sports": 1666,
+          "tech": 2019,
+          "travel": 686
+        },
+        "excluded_low_training_support": {
+          "manoranjan": 24
+        }
+      },
+      "validation": {
+        "raw": 2761,
+        "retained": 2109,
+        "removed": {
+          "conflicting_labels": 232,
+          "duplicate": 408,
+          "empty_or_short": 12
+        },
+        "labels": {
+          "auto": 204,
+          "bhakti": 167,
+          "crime": 233,
+          "education": 84,
+          "fashion": 231,
+          "health": 222,
+          "international": 207,
+          "politics": 234,
+          "sports": 189,
+          "tech": 252,
+          "travel": 86
+        },
+        "excluded_low_training_support": {}
+      },
+      "test": {
+        "raw": 2772,
+        "retained": 2060,
+        "removed": {
+          "duplicate": 468,
+          "conflicting_labels": 233,
+          "empty_or_short": 11
+        },
+        "labels": {
+          "auto": 199,
+          "bhakti": 167,
+          "crime": 209,
+          "education": 86,
+          "fashion": 227,
+          "health": 216,
+          "international": 219,
+          "politics": 234,
+          "sports": 179,
+          "tech": 243,
+          "travel": 81
+        },
+        "excluded_low_training_support": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+fastapi==0.135.2
+uvicorn==0.52.1
+httpx==0.28.1
+scikit-learn==1.9.0
+numpy==2.4.6
+scipy==1.17.1
+joblib==1.5.3
+regex==2026.7.19
+nltk==3.9.2
+gensim==4.4.0
+langid==1.1.6
+pytest==9.0.2
+beautifulsoup4==4.15.0
+

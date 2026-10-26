@@ -1,0 +1,70 @@
+{
+  "repository": "l3cube-pune/indic-nlp",
+  "revision": "0c6014be94385b357e31ce6250da7094e8a7c0fb",
+  "license": "CC-BY-NC-SA-4.0",
+  "files": [
+    {
+      "path": "L3Cube-IndicNews/English/SHC/English_test_shc.csv",
+      "file": "English_test_shc.csv",
+      "url": "https://raw.githubusercontent.com/l3cube-pune/indic-nlp/0c6014be94385b357e31ce6250da7094e8a7c0fb/L3Cube-IndicNews/English/SHC/English_test_shc.csv",
+      "bytes": 445407,
+      "sha256": "db60ab93edba3f5f8bcfbae3b425e2a287ba5968325c203e2e774eb45cae4e92"
+    },
+    {
+      "path": "L3Cube-IndicNews/English/SHC/English_train_shc.csv",
+      "file": "English_train_shc.csv",
+      "url": "https://raw.githubusercontent.com/l3cube-pune/indic-nlp/0c6014be94385b357e31ce6250da7094e8a7c0fb/L3Cube-IndicNews/English/SHC/English_train_shc.csv",
+      "bytes": 3569436,
+      "sha256": "6b3f12a89af9dd4c27dfc4226a40740d0a6e0c1c7e3a5f2b494db34f9820ade1"
+    },
+    {
+      "path": "L3Cube-IndicNews/English/SHC/English_valid_shc.csv",
+      "file": "English_valid_shc.csv",
+      "url": "https://raw.githubusercontent.com/l3cube-pune/indic-nlp/0c6014be94385b357e31ce6250da7094e8a7c0fb/L3Cube-IndicNews/English/SHC/English_valid_shc.csv",
+      "bytes": 446267,
+      "sha256": "45b4f36a0b0df949f01d936b0bedddd1d93ad88e2b5a39af13340fffc68a0eb6"
+    },
+    {
+      "path": "L3Cube-IndicNews/Hindi/SHC/Hindi_SHC_Test.csv",
+      "file": "Hindi_SHC_Test.csv",
+      "url": "https://raw.githubusercontent.com/l3cube-pune/indic-nlp/0c6014be94385b357e31ce6250da7094e8a7c0fb/L3Cube-IndicNews/Hindi/SHC/Hindi_SHC_Test.csv",
+      "bytes": 947402,
+      "sha256": "03fd7a26628ffa43b426472732dee8a344b1a280690ebd32a814e0db9c323323"
+    },
+    {
+      "path": "L3Cube-IndicNews/Hindi/SHC/Hindi_SHC_Train.csv",
+      "file": "Hindi_SHC_Train.csv",
+      "url": "https://raw.githubusercontent.com/l3cube-pune/indic-nlp/0c6014be94385b357e31ce6250da7094e8a7c0fb/L3Cube-IndicNews/Hindi/SHC/Hindi_SHC_Train.csv",
+      "bytes": 7561334,
+      "sha256": "dd1e4d415bb980718e22573b04a297c7227145fe630a4269012affd0d000061c"
+    },
+    {
+      "path": "L3Cube-IndicNews/Hindi/SHC/Hindi_SHC_Valid.csv",
+      "file": "Hindi_SHC_Valid.csv",
+      "url": "https://raw.githubusercontent.com/l3cube-pune/indic-nlp/0c6014be94385b357e31ce6250da7094e8a7c0fb/L3Cube-IndicNews/Hindi/SHC/Hindi_SHC_Valid.csv",
+      "bytes": 934376,
+      "sha256": "df681b57d0859c39829b21fffdd46e7e881c8f4c5f452f3c9dd7a940460f5b53"
+    },
+    {
+      "path": "L3Cube-IndicNews/Marathi/SHC/Marathi_SHC_Test.csv",
+      "file": "Marathi_SHC_Test.csv",
+      "url": "https://raw.githubusercontent.com/l3cube-pune/indic-nlp/0c6014be94385b357e31ce6250da7094e8a7c0fb/L3Cube-IndicNews/Marathi/SHC/Marathi_SHC_Test.csv",
+      "bytes": 623550,
+      "sha256": "c7e2e3894554ea929c9d2c6e81ef5a7ae204f99f261d84e947b5e95d9b9eb8e8"
+    },
+    {
+      "path": "L3Cube-IndicNews/Marathi/SHC/Marathi_SHC_Train.csv",
+      "file": "Marathi_SHC_Train.csv",
+      "url": "https://raw.githubusercontent.com/l3cube-pune/indic-nlp/0c6014be94385b357e31ce6250da7094e8a7c0fb/L3Cube-IndicNews/Marathi/SHC/Marathi_SHC_Train.csv",
+      "bytes": 4997257,
+      "sha256": "5ea817e5e1f6e536e764016ff0a7dc906c05aba91a96d4c3c2e5b6bef7d5549b"
+    },
+    {
+      "path": "L3Cube-IndicNews/Marathi/SHC/Marathi_SHC_Valid.csv",
+      "file": "Marathi_SHC_Valid.csv",
+      "url": "https://raw.githubusercontent.com/l3cube-pune/indic-nlp/0c6014be94385b357e31ce6250da7094e8a7c0fb/L3Cube-IndicNews/Marathi/SHC/Marathi_SHC_Valid.csv",
+      "bytes": 620265,
+      "sha256": "4682ba92da0119c84f7d8456c20c9ee206fcd7f37c0e94710f8437ae9916663a"
+    }
+  ]
+}

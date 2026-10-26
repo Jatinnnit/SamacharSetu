@@ -1,0 +1,48 @@
+{
+  "status": "available",
+  "mode": "demo_fixture",
+  "url": "https://en.wikipedia.org/wiki/Natural_language_processing",
+  "title": "Natural language processing - Wikipedia",
+  "domain": "en.wikipedia.org",
+  "meta_description": "Natural language processing (NLP) is an interdisciplinary subfield of computer science and linguistics.",
+  "headings": [
+    "Natural language processing",
+    "History",
+    "Rule-based vs statistical NLP",
+    "Modern statistical NLP and deep learning",
+    "Major NLP evaluation tasks"
+  ],
+  "paragraphs": [
+    "Natural language processing (NLP) is an interdisciplinary subfield of computer science and linguistics primarily concerned with giving computers the ability to support and manipulate speech and text.",
+    "It involves processing natural language datasets, such as text corpora or speech datasets, using either rule-based or probabilistic statistical and machine learning approaches.",
+    "Modern NLP algorithms are based on machine learning, especially statistical language models and deep neural network architectures including Transformers and Large Language Models.",
+    "Common natural language processing tasks include tokenization, part-of-speech tagging, named entity recognition, sentiment analysis, text classification, and machine translation."
+  ],
+  "links": [
+    {
+      "text": "Artificial intelligence",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    },
+    {
+      "text": "Machine learning",
+      "url": "https://en.wikipedia.org/wiki/Machine_learning"
+    },
+    {
+      "text": "Computational linguistics",
+      "url": "https://en.wikipedia.org/wiki/Computational_linguistics"
+    },
+    {
+      "text": "Large language model",
+      "url": "https://en.wikipedia.org/wiki/Large_language_model"
+    }
+  ],
+  "text": "Natural language processing (NLP) is an interdisciplinary subfield of computer science and linguistics primarily concerned with giving computers the ability to support and manipulate speech and text. It involves processing natural language datasets, such as text corpora or speech datasets, using either rule-based or probabilistic statistical and machine learning approaches. Modern NLP algorithms are based on machine learning, especially statistical language models and deep neural network architectures including Transformers and Large Language Models. Common natural language processing tasks include tokenization, part-of-speech tagging, named entity recognition, sentiment analysis, text classification, and machine translation.",
+  "stats": {
+    "paragraph_count": 4,
+    "heading_count": 5,
+    "link_count": 4,
+    "word_count": 92,
+    "character_count": 735
+  },
+  "notice": "Loaded curated demonstration fixture for verified evaluation."
+}
